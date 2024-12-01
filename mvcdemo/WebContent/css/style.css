@@ -1,0 +1,179 @@
+/* General body styles */
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px; /* Increased font size for better readability */
+    line-height: 1.5; /* Added line height for better text spacing */
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+/* Resetting margins and paddings for elements */
+p, h1, form, button {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+spacer {
+    clear: both;
+    height: 1px;
+}
+
+/* Main form container */
+.mainform {
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px; /* Added padding for better spacing */
+    background-color: white; /* White background for the form */
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+/* Container styles */
+#container {
+    border: solid 2px burlywood;
+    border-radius: 5px;
+    padding: 10px; /* Added padding inside the container */
+}
+
+/* Headings and paragraphs */
+#container h1 {
+    font-size: 18px; /* Increased font size for better visibility */
+    font-weight: bold;
+    margin-bottom: 10px; /* Increased margin for spacing */
+}
+
+#container p {
+    font-size: 12px; /* Increased font size */
+    color: #666666;
+    margin-bottom: 20px;
+    border-bottom: solid 1px burlywood;
+    padding-bottom: 10px;
+}
+
+/* Label styles */
+#container label {
+    display: block;
+    font-weight: bold;
+    text-align: right;
+    width: 140px;
+    float: left;
+}
+
+/* Small text styles */
+#container small {
+    color: #666666;
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: right;
+    width: 140px;
+}
+
+/* Input field styles */
+#container input {
+    float: left;
+    font-size: 14px; /* Increased font size */
+    padding: 8px 10px; /* Added padding for better usability */
+    border: solid 1px burlywood;
+    width: calc(100% - 160px); /* Adjusted width to account for label */
+    margin: 2px 0 20px 10px;
+    border-radius: 5px;
+}
+
+/* Button styles */
+#container button {
+    clear: both;
+    margin-left: 150px;
+    width: 125px;
+    height: 36px; /* Increased height for better clickability */
+    background: #666666;
+    color: #FFFFFF;
+    font-size: 14px; /* Increased font size */
+    font-weight: bold;
+    border: none; /* Removed border for a cleaner look */
+    border-radius: 5px;
+    cursor: pointer; /* Changed cursor to pointer on hover */
+    transition: background 0.3s; /* Added transition for hover effect */
+}
+
+#container button:hover {
+    background: #555555; /* Darker background on hover */
+}
+
+/* Login box styles */
+#login-box {
+    width: 333px;
+    padding: 40px 40px; /* Adjusted padding for better layout */
+    color: #ebebeb;
+    font: 12px Arial, Helvetica, sans-serif;
+    margin: auto; /* Centers the login box */
+    background: url(../images/login-box-backg.png) no-repeat left top;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+}
+
+/* Table styles */
+table, tr, td {
+    border-radius: 5px;
+    border: solid 1px burlywood; /* Updated border color for consistency */
+    padding: 10px; /* Increased padding for better spacing */
+    width: max-content;
+}
+
+/* Image styles */
+#login-box img {
+    border: none;
+    margin: auto;
+}
+
+/* Heading styles */
+#login-box h2 {
+    color: #ebebeb;
+    font: bold 36px "Calibri", Arial; /* Reduced size for better balance */
+}
+
+/* Login box name field styles */
+#login-box-name {
+    float: left;
+    display: inline;
+    width: 80px;
+    text-align: right;
+    padding: 14px 10px 0 0;
+    margin: 0 0 7px 0;
+}
+
+/* Login box field styles */
+#login-box-field {
+    float: left;
+    display: inline;
+    width: 230px;
+    margin: 0 auto;
+}
+
+/* Form login styles */
+.form-login {
+    width: 100%; /* Use full width of parent */
+    padding: 10px 4px; /* Adjusted padding */
+    border: 1px solid #0d2c52; /* Kept for definition */
+    background-color: #1e4f8a;
+    font-size: 16px;
+    color: #ebebeb;
+}
+
+/* Login box options styles */
+.login-box-options {
+    clear: both;
+    padding-left: 0; /* Removed left padding for better alignment */
+    text-align: center; /* Centered text */
+    font-size: 12px; /* Adjusted font size */
+}
+
+.login-box-options a {
+    color: #ebebeb;
+    font-size: 12px; /* Adjusted font size */
+    text-decoration: none; /* Removed underline */
+}
+
+.login-box-options a:hover {
+    text-decoration: underline; /* Added underline on hover for clarity */
+}
